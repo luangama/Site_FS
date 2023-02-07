@@ -8,16 +8,16 @@
 .center {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2%;
 }
 
 section.main {
     background-image: url('img/bkg.png');
-    min-height: 500px;
+    min-height: 450px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    vertical-align: middle;
 }
 
 .menu {
@@ -66,14 +66,14 @@ section.main {
 
 .container {
     background-color: white;
-    position: fixed;
+    position:absolute;
     width: 1000px;
     height: 300px;
-    margin-top: 45px;
     border-radius: 7px;
     box-shadow: 0px 10px 15px #00000029;
-    text-align: center;
     padding: 50px;
+    text-align: center;
+    margin: 45px;
 }
 
 .titulo {
@@ -131,4 +131,160 @@ section.main {
 
 .txtSingUp .btn-singUp {
     color: #126DA2;
+}
+
+.section-header{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.section-header h2{
+    color: #126DA2;
+}
+
+.list-module{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list-module .box1{
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 10px 15px #00000029;
+    border-radius: 7px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.list-module .box1 img{
+    width: 300px;
+    border-radius: 7pX 7px 0px 0px;
+}
+
+.list-module .box1 h3{
+    color:#126DA2;
+    margin: 20px;
+}
+
+.list-module .box1 p{
+    color: #707070;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.list-module .box1 a{
+    color: white;
+    background-color: #00C4FF;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.list-module .box1 a:hover{
+    color: white;
+    background-color: #00466F;
+}
+
+.list-module .box2{
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 10px 15px #00000029;
+    border-radius: 7px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.list-module .box2 img{
+    width: 300px;
+    border-radius: 7pX 7px 0px 0px;
+}
+
+.list-module .box2 h3{
+    color:#126DA2;
+    margin: 20px;
+}
+
+.list-module .box2 p{
+    color: #707070;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.list-module .box2 a{
+    color: white;
+    background-color: #00C4FF;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.list-module .box2 a:hover{
+    color: white;
+    background-color: #00466F;
+}
+
+.list-module .box3{
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 10px 15px #00000029;
+    border-radius: 7px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.list-module .box3 img{
+    width: 300px;
+    border-radius: 7pX 7px 0px 0px;
+}
+
+.list-module .box3 h3{
+    color:#126DA2;
+    margin: 20px;
+}
+
+.list-module .box3 p{
+    color: #707070;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.list-module .box3 a{
+    color: white;
+    background-color: #00C4FF;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.list-module .box3 a:hover{
+    color: white;
+    background-color: #00466F;
+}
+
+.box1:hover{
+    transform: scale(1.03);
+}
+
+.box2:hover{
+    transform: scale(1.03);
+}
+
+.box3:hover{
+    transform: scale(1.03);
 }
