@@ -39,7 +39,7 @@ section.main {
     color: #00466F;
 }
 
-.btn-menu{
+.btn-menu {
     color: white;
     background-color: #00C4FF;
     margin-top: 15px;
@@ -76,4 +76,56 @@ section.main {
 .titulo {
     color: #383838;
     font-size: 18px;
+}
+
+.pesquisar {
+    margin-top: 50px;
+}
+
+.pesquisar input {
+    background-color: #fff;
+    border-color: #707070;
+    border-width: 1.3px;
+    border-style: solid;
+    border-radius: 4px 0px 0px 4px;
+    width: 80%;
+    height: 40px;
+    color: #707070;
+    font-size: 16px;
+    padding: 0px 20px;
+    display: flex;
+    float: left;
+}
+
+.pesquisar a {
+    color: white;
+    background-color: #126DA2;
+    width: 20%;
+    height: 40px;
+    border-radius: 0px 4px 4px 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+    
+.pesquisar a:hover {
+    color: white;
+    background-color: #00466F;
+}
+
+.material-icons {
+    color: white;
+    padding: 5px;
+}
+
+.txtSingUp {
+    margin-top: 150px;
+    color: #707070;
+    display: block;
+}
+
+.txtSingUp .btn-singUp {
+    color: #126DA2;
 }
